@@ -6,7 +6,7 @@ using UnityEngine.Assertions;
 [DisallowMultipleComponent]
 public class ComponentSorter : MonoBehaviour
 {
-    // NonCustomComponents - e.g. Unity;
+    // NonCustomComponents - e.g. Unity's Components;
     // Separator - This script;
     // CustomComponents - Non-specific components.
     // The integer represents the default position.

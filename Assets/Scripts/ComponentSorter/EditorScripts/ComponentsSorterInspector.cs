@@ -13,12 +13,12 @@ public class ComponentsSorterInspector : Editor
     {
         var instructionsStyle = new GUIStyle(GUI.skin.label);
         instructionsStyle.fontSize = 14;
-        GUILayout.Label(@"This will do the following things:
-1. Will order components according to the reorderable list below.
-2. There are special, reserved names that cannot be removed. 
+        GUILayout.Label(@"This component will do the following things:
+1. Will order components according to the reorderable list in the component.
+2. There are special, reserved names that cannot be removed.
 3. Duplicate elements will be removed prior to sorting.
 4. Components that fit a certain criterion will be sorted alphabetically.
-5. Component names should NOT have spaces. Spaces will be removed."
+5. Component names should NOT have spaces when specifying them in the blueprint. Spaces will be removed."
 , instructionsStyle);
 
         GUILayout.Label("________________________________________________________________________________________________________________________________________________________________");
